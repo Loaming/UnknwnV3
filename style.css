@@ -1,0 +1,322 @@
+*,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "NeueMontreal-Bold";
+    font-size: 24px;
+    color: rgba(255, 255,255, 1);
+    }
+
+    h1,
+    p {
+        margin: 0;
+    }
+    .container {
+        width: 1180px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+    .header {
+        background-color: rgba(19, 19 ,19, 1)
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        
+        padding: 24px 40px;
+        line-height: 31,2px;
+    }
+    .link {
+        text-decoration: none;
+        margin-right: 36px;
+        color: rgba(255, 255,255, 1);
+    }
+    .link:last-child{
+        margin-right: 0;
+    }
+    .intro{
+        padding: 208px 0px 298px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro-logo {
+        font-size: 319px;
+        color: rgba(52, 52, 52, 1);
+    }
+    .text-intro {
+        position: relative;
+        bottom: 190px;
+        font-size: 64px;
+        z-index: 1;
+    }
+
+    /* About Us */
+    .about-us {
+        display: flex;
+        padding: 140px 0px 76px 0px;
+    }
+    .about-us-text {
+        font-size: 49px;
+        line-height: 63,7px;
+        color: #000000;
+        padding: 0px 206px 0px 206px;
+    }
+    .color {
+        color: blue;
+    }
+    
+    /* Cases */
+    .cases {
+        display: flex;
+        background-color: rgba(19, 19 ,19, 1);
+        padding: 72px 0px 175px;
+    }
+    .cases-intro {
+        font-size: 72px;
+        color: rgba(255, 255,255, 1);
+        line-height: 93,6px;
+        margin: 0px 0px 80px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 96px;
+        margin: 0 -50px;
+    }
+    .item {
+        width: 50%;
+        border: 1px solid rgba(77, 77, 77, 1);
+        padding: 56px 116px 56px 50px; 
+    }
+    .maintext-project {
+        font-size: 49px;
+        line-height: 63,7px;
+        margin: 0px 0px 24px;
+    }
+    .subtext-project {
+        font-family: "NeueMontreal-Light";
+        max-width: 384px;
+        font-size: 18px;
+        line-height: 23,4px;
+    }
+    .cases-text-end {
+        font-size: 49px;
+        line-height: 63,7px;
+        text-transform: uppercase;
+    }
+
+    /* Unknwn Team */
+
+    .unknwn-team {
+        display: flex;
+        padding: 70px 0px 96px;
+    }
+    .team-logo {
+        font-size: 72px;
+        color: rgba(0, 0, 0, 1);
+        margin: 0px 0px 136px;
+    }
+    .team-text {
+        font-size: 49px;
+        line-height: 63,7px;
+        color: rgba(0, 0, 0, 1);
+        margin: 0px 0px 56px;
+    }
+    .team-profile {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 64px;
+        margin: 0 -30px;
+    }
+    .user-profile {
+        width: 25%;
+        padding: 30px 30px;
+        border: 1px solid rgb(222, 222, 222, 1);
+    }
+    .name {
+        font-size: 22px;
+        line-height: 28,6px;
+        color: rgba(0, 0, 0, 1);
+        padding: 20px 0px 4px;
+    }
+    .who {
+        font-family: "NeueMontreal-Light";
+        font-size: 18px;
+        line-height: 23,4px;
+        color: rgba(0, 0, 0, 1);
+    }
+    .text-team-end {
+        font-size: 24px;
+        line-height: 31,2px;
+        color: rgba(0, 0, 0, 1);
+    }
+    
+
+    /* Contact */
+    .contact {
+        display: flex;
+        padding: 96px 0px 190px;
+        background-color: #163699;
+    }
+    .rocol {
+        display: flex;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+    .contact-zag {
+        font-size: 49px;
+        line-height: 63,7px;
+        margin: 0px 0px 50px;
+    }
+    .main-contact {
+        font-size: 24px;
+        line-height: 31,2px;
+        margin: 0px 0px 20px;
+    }
+    .chose {
+        margin-bottom: 30px;
+    }
+    .chose-problem {
+        font-family: "NeueMontreal-Bold";
+        font-size: 18px;
+        line-height: 23,4px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+        padding: 10px 20px 10px 20px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        margin-right: 10px;
+        margin-bottom: 10px;;
+    }
+    .input-em {
+        font-family: "NeueMontreal-Light";
+        font-size: 18px;
+        line-height: 23.4px;
+        color: rgba(255, 255, 255, 0.4);
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        padding: 10px 0px 10px 20px;
+        margin: 0px 0px 40px;
+    }
+    .input-text {
+        font-family: "NeueMontreal-Light";
+        font-size: 18px; 
+        line-height: 23.4px;
+        color: rgba(255, 255, 255, 0.4);
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        padding: 10px 0px 0px 20px;
+        height: 240px;
+        resize: none;
+        margin: 0px 0px 40px;
+    }
+    .send-req {
+        font-family: "NeueMontreal-Bold";
+        font-size: 24px;
+        color: rgba(22, 54, 153, 1);
+        padding: 14px 0px 14px 0px;
+        cursor: pointer;
+    }
+    .inf-contact {
+        width: 35%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 30px 30px;
+        margin: 109px 0px 450px 60px;
+        
+    }
+    .inf-zag-text {
+        font-size:24px;
+        color: rgba(255, 255, 255, 1);
+        line-height: 31,2px;
+        margin-bottom: 20px;
+    }
+    .inf-subtext {
+        font-family: "NeueMontreal-Light";
+        font-size: 18px;
+        line-height: 23,4px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    /* Footer */
+    .footer {
+        background: #131313;
+    }
+    .end {
+        display: flex;
+        justify-content: center;
+        padding: 152px 0px 148px 0px;
+    }
+    .end-logo {
+        font-size: 319px;
+        color: rgba(52, 52, 52, 1);
+    }
+    .nav-end {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px 24px 40px;
+    }
+    .logo-end {
+        font-size: 24px;
+        line-height: 31,2px;
+        color: rgba(255, 255, 255, 1);
+        margin-right: 32px;
+    }
+    .left-menu {
+        display: flex;
+        align-items: center;
+    }
+    .right-menu {
+        display: flex;
+        align-items: center;
+    }
+    .link-end {
+        font-family: "NeueMontreal-Light";
+        font-size: 16px;
+        line-height: 20,8px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-right: 24px;
+        text-decoration: none;
+    }
+    .link-end:last-child {
+        margin-right: 0px;
+    }
+    .f {
+        font-size: 14px;
+        line-height: 18,2px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+
+
+
+
+
+    @font-face {
+        font-family: "NeueMontreal-Bold";
+        src: url(/fonts/NeueMontreal-Bold.otf) format("truetype");
+        font-style: normal;
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: "NeueMontreal-Light";
+        src: url(/fonts/NeueMontreal-Light.otf) format(truetype);
+        font-style: normal;
+        font-weight: lighter;
+    }
