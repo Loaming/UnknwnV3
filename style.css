@@ -51,13 +51,11 @@
         flex-direction: column;
     }
     .intro-logo {
-        font-size: 319px;
+        font-size: 17vw;
         color: rgba(52, 52, 52, 1);
     }
     .text-intro {
-        position: relative;
-        bottom: 190px;
-        font-size: 64px;
+        font-size: 3.3vw;
         z-index: 1;
     }
 
@@ -67,10 +65,11 @@
         padding: 140px 0px 76px 0px;
     }
     .about-us-text {
+        margin: 0 auto;
+        width: 870px;
         font-size: 49px;
         line-height: 63,7px;
         color: #000000;
-        padding: 0px 206px 0px 206px;
     }
     .color {
         color: blue;
@@ -145,6 +144,10 @@
         width: 25%;
         padding: 30px 30px;
         border: 1px solid rgb(222, 222, 222, 1);
+    }
+    .user-pic {
+        width: 250px;
+        height: 250px;
     }
     .name {
         font-size: 22px;
@@ -263,11 +266,12 @@
         padding: 152px 0px 148px 0px;
     }
     .end-logo {
-        font-size: 319px;
+        font-size: 17vw;
         color: rgba(52, 52, 52, 1);
     }
     .nav-end {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         padding: 20px 40px 24px 40px;
@@ -304,7 +308,26 @@
     }
 
 
-
+    @media (max-width:1180px) {
+        .container {
+            width: calc(100% - 80px);
+        }
+        .user-profile {
+            min-width: 310px;
+        }
+    }
+    @media screen and (max-width:860px) {
+        .container {
+            width: calc(100% - 40px);
+            padding: 0 20px;
+        }
+        .item {
+            width: 100%;
+        }
+        .about-us-text {
+            width: 100%;
+        }
+    }
 
 
 
