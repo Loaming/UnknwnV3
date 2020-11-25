@@ -29,6 +29,7 @@
     }
     .nav {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-content: center;
         
@@ -50,15 +51,11 @@
         align-items: center;
         flex-direction: column;
     }
-    .intro-logo {
-        font-size: 17vw;
-        color: rgba(52, 52, 52, 1);
+    .unknwn {
+        width: 60%;
+        background-size: cover;
     }
-    .text-intro {
-        font-size: 3.3vw;
-        z-index: 1;
-    }
-
+    
     /* About Us */
     .about-us {
         display: flex;
@@ -264,10 +261,6 @@
         display: flex;
         justify-content: center;
         padding: 152px 0px 148px 0px;
-    }
-    .end-logo {
-        font-size: 17vw;
-        color: rgba(52, 52, 52, 1);
     }
     .nav-end {
         display: flex;
